@@ -111,7 +111,9 @@ body {
     .showMore__button-icon {
         position: absolute;
         left: 0;
-        background: url("img/expand.svg") no-repeat 50% 50%;
+        background-image: url(img/expand.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
         width: 24px;
         height: 24px;
     }
